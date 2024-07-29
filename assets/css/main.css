@@ -418,8 +418,8 @@ h6 {
   position: relative;
 }
 
-.footer h3 {
-  font-size: 36px;
+.footer h3{
+  font-size: 50px;
   font-weight: 700;
   position: relative;
   padding: 0;
@@ -2557,4 +2557,10 @@ section,
 
 .sitename img{
   width: 15%;
+}
+
+@media (max-width:500px){
+  .sitename img {
+      width: 35%;
+  }
 }
